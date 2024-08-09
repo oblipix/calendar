@@ -1,0 +1,233 @@
+/* CSS para centralizar o h1 */
+.App {
+  text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+  padding: 20px; /* Ajuste conforme necessário */
+}
+
+h1 {
+  color: #8d4f15;
+  margin: 0; /* Remove margens padrão se necessário */
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  top: 50px;
+  padding: 50px;
+}
+
+h2 {
+  color: #8d4f15;
+  font-size: 12px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  background-color: #8d4f1571;
+  color: #fff;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #8d4f15;
+  --secondary-color: #472102;
+  --tertiary-color: #b68036;
+}
+
+/*input*/
+
+.text-input {
+  outline: none;
+  background-color: none;
+  border: 1px inset  #8d4f1541;
+  color: var(--primary-color);
+  font-size: 12px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.text-input:focus {
+  outline: none;
+  background-color: none;
+  border: 1px solid #8d4f1541;
+  color: var(--primary-color);
+  font-size: 12px;
+  box-shadow:  0px 2px 8px var(--primary-color);
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Calendário */
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 50%; /* Posiciona verticalmente no meio da tela */
+  left: 50%; /* Posiciona horizontalmente no meio da tela */
+}
+
+.custom-calendar {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.548),
+      rgba(255, 255, 255, 0.473)
+    ),
+    url("https://i.pinimg.com/564x/c7/00/e0/c700e05cb05a3fb3f4335d7fc2136642.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  box-shadow: 0 4px 8px #000;
+  height: 480px;
+  padding: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+
+.react-calendar__navigation button:disabled,
+.react-calendar__navigation, 
+.react-calendar__navigation__label,
+ 
+.react-calendar__navigation__label__labelText:hover,
+.react-calendar__month-view__days__day:hover ,
+.react-calendar__navigation__label--year,
+.react-calendar__navigation__label::before,
+.react-calendar__navigation__label::after,
+.react-calendar__year-view__months__month,
+.react-calendar__decade-view__years__year,
+.react-calendar__century-view__decades__decade,
+  .react-calendar__navigation__label__labelText,
+  .react-calendar__navigation button:enabled:hover,
+  .react-calendar__tile--range,
+.react-calendar__tile--rangeStart,
+.react-calendar__tile--rangeEnd,
+.react-calendar__tile--rangeBothEnds
+ {
+    background: none !important;
+   
+
+
+}
+
+
+
+
+.react-calendar__month-view__weekdays {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+.react-calendar__tile--active .event-indicator {
+  color: #fff !important; /* Define a cor da fonte para branco */
+}
+
+.react-calendar__navigation__label:hover{
+  background: none;
+  color: var(--primary-color);
+}
+
+.react-calendar__tile--now {
+  background: var(--tertiary-color) !important;
+  color: #fff !important; /* Define a cor da fonte para branco */
+  border-radius: 4px;
+  box-shadow: none !important;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.react-calendar__tile--now:hover {
+  background: var(--secondary-color) !important;
+  color: #fff !important; /* Define a cor da fonte para branco */
+  border-radius: 4px;
+  box-shadow: none !important;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+
+
+.react-calendar__tile--hasActive {
+  background: var(--tertiary-color);
+  color: #fff !important;
+
+  border-radius: 4px;
+}
+
+.react-calendar__tile {
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  color: #000;
+  position: relative;
+}
+
+.react-calendar__tile--hasEvent {
+  position: relative;
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--tertiary-color);
+  font-size: 10px;
+}
+
+.icon-button:hover {
+  color: var(--tertiary-color);
+}
+
+.delete-button {
+  color: var(--tertiary-color);
+}
+
+.delete-button:hover {
+  color: var(--tertiary-color);
+}
+
+.icon-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-button2 {
+  
+  margin: 5px;
+  box-shadow: 1px 1px 5px var(--primary-color);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .calendar-container {
+    padding: 10px;
+  }
+
+  .modal {
+    width: 90%;
+  }
+}
