@@ -42,7 +42,7 @@ _Obtenha a URL do repositório:_
 `URL do repositório: https://github.com/oblipix/calendario.git`
 
 
-📌 instale os packages.json 
+📌 instale as dependencias _packages.json_
 
 navegue até a pasta onde deseja clonar.
 
