@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/46229925-296d-400a-9132-4df433824ecb
 
 _Obtenha a URL do repositório:_
 
-`URL do repositório: https://github.com/oblipix/calendario.git`
+`URL do repositório: https://github.com/oblipix/calendar.git`
 
 
 
@@ -50,10 +50,10 @@ navegue até a pasta onde deseja clonar.
 
 **Clone o repositório:**
 
-`git clone https://github.com/oblipix/calendario.git`
+`git clone https://github.com/oblipix/calendar.git`
 
 
-<sub> Agora você tem uma cópia local do repositório pomodoro que pode ser modificada conforme necessário. </sub>
+<sub> Agora você tem uma cópia local do repositório que pode ser modificada conforme necessário. </sub>
 
 
 
