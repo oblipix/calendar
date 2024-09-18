@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/46229925-296d-400a-9132-4df433824ecb
 >
 >  📌 Instale packages json (Instale dependencias)
 > 
-> Faça um Fork do repositório, assim nada será alterado do repositório original.
+> ⚠️ Faça um Fork do repositório, assim nada será alterado do repositório original.
 
 **Vamos clonar este repositório passo a passo.**
 
